@@ -140,9 +140,6 @@ const RangeDatePicker = ({
   }
 
   function handleClickDateInput(inputFocus) {
-    if ((inputFocus === 'to' && !fromDate) || disabled) {
-      return;
-    }
 
     if (!complsOpen) {
       setComplsOpen(true);
